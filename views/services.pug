@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+      include ../static/about.css
+      include ../static/submit.css
+      include ../static/services.css
+  
+block content 
+    section#missionsection 
+        h3  Our Services
+        div.card
+          h4 We provide best dance tutorial with care
+          div.card-box 
+              div.card-img-one 
+                  img(src='../static/first.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum reiciendis quam qui, nisi sit maxime ipsam fugit nobis libero nostrum iure non veniam eos, voluptates voluptas rem quibusdam asperiores earum ea facere, labore voluptatem. Quidem doloribus mollitia harum placeat rerum voluptatibus, aspernatur, nemo nulla incidunt, doloremque tempore blanditiis provident.
+                  h5 Our classes cover: 
+                  li Western dance 
+                  li Bharatnatyam dance
+                  li Katthak dance
+                  li Odisi dance
+                  li kathakali dance
+                  li ballay dance
+                  
+                  div.btn
+                     li #[a(href='/') Goto-Homepage]
+                  
+        
+              

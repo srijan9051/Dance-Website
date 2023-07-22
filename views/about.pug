@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+      include ../static/about.css
+  
+block content 
+    section#missionsection 
+        h3  About Us
+        div.card
+          h4 Why to choose  Bumba's Dance Class
+          div.card-box 
+              div.card-img-one 
+                  img(src='../static/first.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. Aut blanditiis reiciendis doloremque quasi eius sint suscipit quisquam nemo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur nobis quia dignissimos beatae deleniti quis aperiam. Nulla beatae, recusandae eum eaque alias totam ratione repudiandae vel, et quidem magnam, molestias officia corporis ad cum voluptas laborum excepturi odit perspiciatis velit possimus quos explicabo? At, suscipit ab veritatis accusamus ipsam aut voluptate deserunt cum adipisci illum id, ea aliquam ut quisquam, perspiciatis harum. At, asperiores tenetur praesentium possimus voluptas ducimus vero vel cum quos perferendis! Pariatur perspiciatis harum repudiandae reprehenderit explicabo dolorum a rerum maiores molestiae facilis! Incidunt ratione delectus eum, beatae repellat aliquid facilis nihil eaque hic, rerum necessitatibus!
+                  div.btn
+                     li #[a(href='/') Goto-Homepage]
+                  
+        
+              

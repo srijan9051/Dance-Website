@@ -1,0 +1,58 @@
+doctype html 
+html 
+  head 
+    title Bumba Dance Academy
+    style 
+      include ../static/style.css
+  body 
+    //- h1 My Site 
+    //- p Welcome to my dance academy
+    nav#navbar
+        ul
+          div#logo
+            img(src='../static/logo.jpg') 
+          li #[a(href='/') Home]
+          li #[a(href='/') About]
+          li #[a(href='/') Services]
+          li #[a(href='/') Class Info]
+          li #[a(href='/') Contact Us]
+
+    section#introsection 
+        div WELCOME TO BUMBA'S DANCE CLASS 
+        div.small  Feel The Essence of Indian and Western Dance Here
+    section#missionsection 
+        h3  Our Mission
+        div.card
+          h4 Dance Perfection
+          div.card-box 
+              div.card-img-one 
+                  img(src='../static/first.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. Aut blanditiis reiciendis doloremque quasi eius sint suscipit quisquam nemo?
+        div.card
+          h4 Dance as you like
+          div.card-box 
+              div.card-img 
+                  img(src='../static/second.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. Aut blanditiis reiciendis doloremque quasi eius sint suscipit quisquam nemo?
+        div.card
+          h4 Dance teaching
+          div.card-box 
+              div.card-img 
+                  img(src='../static/third.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. Aut blanditiis reiciendis doloremque quasi eius sint suscipit quisquam nemo?
+    section#sponsersection 
+        h3  Our Sponsers
+        div#sponser
+            image(src='../static/sponser1.jpg',alt="sponsers",class="spimage")
+            image(src='../static/sponser2.jpg',alt="sponsers",class="spimage")
+            image(src='../static/sponser3.jpg',alt="sponsers",class="spimage")
+            image(src='../static/sponser4.jpg',alt="sponsers",class="spimage")
+    footer#footer 
+        | copywright © 2023 bumbadanceacademy.com |All rights reserved 
+    
+
+    script 
+      include ../static/index.js  

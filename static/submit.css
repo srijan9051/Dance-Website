@@ -1,0 +1,13 @@
+.btn {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 39rem;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 366px;
+    background-color: red;
+    border-radius: 8px;
+    cursor: pointer;
+}

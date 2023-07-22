@@ -1,0 +1,15 @@
+h5{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 10rem;
+}
+li{
+    /* list-style: none; */
+    display: inline;
+    margin: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

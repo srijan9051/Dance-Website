@@ -1,0 +1,69 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+      include ../static/classinfo.css
+  
+block content 
+    section#missionsection 
+        h3  Our classes cover 
+        div.card
+          h4 Katthak Dance
+          div.card-box 
+              div.card-img-one 
+                  img(src='../static/third.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. 
+                  p#info 
+                    | Classes will be held on Monday,Friday(11:00a.m)
+        div.card
+          h4 Bharatnatyam Dance
+          div.card-box 
+              div.card-img 
+                  img(src='../static/third.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. 
+                  p#info 
+                    | Classes will be held on Tuesday,Thirsday(10:00a.m) 
+        div.card
+          h4 Kathakali Dance
+          div.card-box 
+              div.card-img 
+                  img(src='../static/second.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. 
+                  p#info 
+                    | Classes will be held on Friday,Saturday(09:30a.m)
+        div.card
+          h4 Western Dance
+          div.card-box 
+              div.card-img 
+                  img(src='../static/second.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. 
+                  p#info 
+                    | Classes will be held on Monday,Friday(06:00p.m)
+        div.card
+          h4 Ballay Dance
+          div.card-box 
+              div.card-img 
+                  img(src='../static/second.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. 
+                  p#info 
+                    | Classes will be held on Tuesday,Thirsday(05:30p.m)
+        div.card
+          h4 Odisi Dance
+          div.card-box 
+              div.card-img 
+                  img(src='../static/third.jpg')
+              div.card-content
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illo aut velit totam, mollitia quis magnam nihil vel laboriosam minima. 
+                  p#info 
+                    | Classes will be held on Saturday(11:00a.m) and Wednesday(06:00p.m)
+        //- div.btn
+        //-    li #[a(href='/') Goto-Homepage]

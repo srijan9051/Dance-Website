@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.card{
+    background-color: rgba(238, 190, 190, 0.71);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 34px 74px;
+    height: 241px;
+}
+.btn{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:45px 34rem;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 398px;
+    background-color: red;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}

@@ -1,0 +1,7 @@
+ Name is:Srijan
+ Gender is:Male
+ Age is:22
+ phone number is:+918620018912
+ email is:srijanbanerjee18@gmail.com
+ address is:32/6, Motilal Mallick Lane, kolkata-700035
+ choice is:Bharatnatyam

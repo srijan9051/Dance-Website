@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+      include ../static/about.css
+      include ../static/submit.css
+  
+block content 
+    section#missionsection 
+        h3  Submission Page
+        div.card
+          h4 Submitted Successfully!!!
+          div.card-box 
+              div.card-img-one 
+                  img(src='../static/first.jpg')
+              div.card-content
+                  p You have sucessfully reached us...we will contact you soon😊😊😊
+                  p For more details feel free to contact us:xxxxxxxxxx
+                  div.btn
+                     li #[a(href='/') Goto-Homepage]
+                  
+        
+              
